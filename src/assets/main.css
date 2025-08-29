@@ -1,0 +1,17 @@
+@import './base.css';
+@import "tailwindcss";
+
+
+#app {
+  padding: 2rem;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.4s;
+  padding: 3px;
+}
+
+
+
