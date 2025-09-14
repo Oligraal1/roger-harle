@@ -165,13 +165,13 @@ const next = () => {
     <!-- Boutons précédent / suivant -->
     <button
       @click="prev"
-      class="absolute top-1/2 left-2 -translate-y-1/2 bg-white bg-opacity-70 text-black text-2xl font-bold p-2 rounded-full shadow hover:bg-opacity-100"
+      class="absolute top-1/2 left-2 -translate-y-1/2  bg-opacity-70 text-white text-2xl font-bold p-2 rounded-full shadow hover:bg-opacity-100"
     >
       <font-awesome-icon icon="chevron-circle-left" />
     </button>
     <button
       @click="next"
-      class="absolute top-1/2 right-2 -translate-y-1/2 bg-white bg-opacity-70 text-black text-2xl font-bold p-2 rounded-full shadow hover:bg-opacity-100"
+      class="absolute top-1/2 right-2 -translate-y-1/2  bg-opacity-70 text-white text-2xl font-bold p-2 rounded-full shadow hover:bg-opacity-100"
     >
       <font-awesome-icon icon="chevron-circle-right" class=""/>
     </button>
